@@ -1,0 +1,32 @@
+
+
+h1{
+    color: white;
+}
+
+
+#contenedor-carrito{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.producto{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.listaProducto{
+    background: cornflowerblue;
+}
+
+.totalStock{
+    background: rgb(235, 220, 11);
+}
